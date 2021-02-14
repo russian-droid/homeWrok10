@@ -8,11 +8,17 @@ For example, if we run 9119 through the function, 811181 will come
 Note: The function accepts an integer and returns an integer
 """
 
-str = '9119'
-strNew = []
-for x in str:
-    
-    x=int(x)
-    y=x*x
-    strNew.append(y)
-print(*strNew, sep = '')
+def square_digits(num):
+    new_string = []
+    for x in num:
+        x=int(x)
+        y=x*x
+        #new list from strings
+        new_string.append(y) 
+    #concatenate elements of a list
+    result = ''.join(map(str, new_string))
+    #change str to int
+    result=int(result)
+    return result
+
+square_digits('9119')
