@@ -8,6 +8,7 @@ For example, if we run 9119 through the function, 811181 will come
 Note: The function accepts an integer and returns an integer
 """
 
+
 def square_digits(num):
     new_string = []
     for x in num:
