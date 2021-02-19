@@ -1,5 +1,7 @@
 """ 
-Welcome. In this kata, you are asked to square every digit
+CodeWars kata codewars.com
+
+In this kata, you are asked to square every digit
 of a number and concatenate them.
 
 For example, if we run 9119 through the function, 811181 will come
